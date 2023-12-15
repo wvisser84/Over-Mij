@@ -1,0 +1,87 @@
+header{
+    text-align: center;
+    font-size: x-large;
+    width: auto;
+    height:150px;
+    color: #009;
+    background-color: olive;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer{
+    text-align: center;
+    font-size: x-large;
+    width: auto;
+    height: 150px;
+    color: #009;
+    background-color: olive;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2{
+    text-align: center;
+    font-size: x-large;
+    color: #009;
+}
+p{
+    color: #009;
+    text-align: center;
+    font-size: large;
+}
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #009;
+    text-align: auto;
+    font-size: xx-large;
+}
+ul{
+    font-size: x-large;
+}
+li{
+    display: inline-block;
+    text-align: center;
+}
+table{
+    font-size: large;
+    color: #009;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px grey;
+}
+textarea{
+    height: 200px;
+    background-color: lightblue;
+    padding: 5px 4px;
+}
+button:active{
+    background-color: lightgreen;
+    color: blue;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 5px green;
+    text-align: center;
+}
+IMG.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+IMG.image{
+    width: 100px;
+    height: 50px;
+    float: right;
+}
